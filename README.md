@@ -31,14 +31,16 @@ This script can be used "as it is" without any installation.
 
 ## Usage
 
-python pathlen.py -p <dir> [-h] [-a AlertAt -f FailAt]
+python pathlen.py 
 
--h ...........Show syntax
--p <dir> .... Directory which should be scanned; providing a relative path will result in relative length values
--a <0..255>...AlertAt value
--f <0..255>...FailAt value (must be >= AlertAt)
+-p <dir>...directory (mandatory)
+-h.........show help
+-a <val>...AlertAt (default=200)
+-f <val>...FailAt  (default=255)
 
-Default values: -a 200, -f 255
+Please note:
+FailAt must be >=AlertAt
+Providing a relative directory-path will result in relative values.
 
 ## Tests
 
