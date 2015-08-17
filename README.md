@@ -7,17 +7,17 @@ are exceeded, the flags [ALERT] and [FAIL] are set in the report, respectively.
 ## Code Example
 
 Example 1: Scan local directory, AlertAt=200 characters, FailAt=255 characters (default)
-
+```
 python pathlen.py -p ./
-
+```
 Example 2: Scan subdirectory, AlertAt=100 characters, FailAt=200 characters
-
+```
 python pathlen.py -p /home/testuser -a 100 -f 200
-
+```
 Example 3: Display help
-
+```
 python pathlen.py -h
-
+```
 ## Motivation
 
 Some OS have a maximum pathlength. Exceeding this value may result in error messages or in the worst case 
