@@ -49,9 +49,9 @@ Providing a relative directory-path will result in relative values.
 ## Tests
 
 Create directory with dummy name and 100 characters length for testing
-'''
+```
 python dircreate.py
-'''
+```
 
 
 ## Contributors
