@@ -27,6 +27,7 @@ in shortened filenames.
 ## Installation
 
 Requirement: Python >=2.7.9
+
 This script can be used "as it is" without any installation.
 
 ## Usage
@@ -40,7 +41,9 @@ python pathlen.py
 
 ```
 Please note:
+
 FailAt must be >=AlertAt
+
 Providing a relative directory-path will result in relative values.
 
 ## Tests
