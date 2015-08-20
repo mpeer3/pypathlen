@@ -1,0 +1,130 @@
+/*PyPathlen pathlength checker by Michael Peer
+Using Bootstrap 3.3.5
+and jquery 1.11.3*/
+
+
+/*Some general setup*/
+.navbar-header{
+    margin:0;
+}
+.navbar-brand{
+    margin:0;
+}
+ul{
+    padding-top:1em;
+}
+/*Navigation ul*/
+#nvul{
+    padding-top:0;
+}
+h6 {
+    color:white;
+    padding: 30px 0px 0px 10px;
+
+}
+
+/*Changelog table*/
+td {
+    padding-right:1em;
+
+}
+/*Bootstrap columns styling*/
+.col-md-8 {
+    padding-top:0.7em;
+    margin-bottom:3em;
+    margin-top:0;
+}
+.col-md-offset-1 {
+
+    background-color: #F5F5F5;
+    box-shadow: 0px 0px 10px #B0B0B0 inset;
+
+}
+.col-md-3 {
+    box-shadow: 3px 0px 12px -6px rgba(0,0,0,1);
+}
+/*First section containing logo plus Octocat*/
+#masthead {
+    background-image:url("back.png");
+    background-repeat:repeat-x;
+    margin-top:0;
+    padding:2em;
+    min-height:15em;
+
+}
+#title_box {
+
+    padding:0;
+    margin:0;
+    font-family:Kaushan Script;
+    color:white;
+
+
+}
+#title{
+    padding:0;
+    margin:0;
+
+    font-size:5em;
+}
+#subtitle{
+    font-size:2em;
+}
+#octocat {
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width:5em;
+    height:5em;
+    background-image:url("Octocat.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-color:white;
+    padding-top:3.5em;
+    padding-left:1em;
+
+
+}
+#octocat a {
+    font-family:Kaushan Script;
+    color:black;
+
+}
+/*The PyPathlen font*/
+.pypa{
+    font-family:Kaushan Script; 
+}
+
+/*In-text codesample*/
+#codebox{
+    font-family:sans-serif;
+    background-color:black;
+    color:grey;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:0.5em;
+    margin-bottom:1em;
+
+}
+
+#codebox p{
+    margin:0;
+    padding:0;
+}
+
+
+
+/*Last section including download plus personal information */
+#divgetit {
+    background-color: #4D82B8;
+    text-decoration: none;
+
+}
+#divgetit a {
+
+    text-decoration: none;
+    color:white;
+    padding: 1em;
+}
+
+
+
